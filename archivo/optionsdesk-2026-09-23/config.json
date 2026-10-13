@@ -1,0 +1,31 @@
+{
+  "mode": "OBSERVE",
+  "symbols": [
+    "AAPL",
+    "MSFT"
+  ],
+  "risk_capital": 10000.0,
+  "max_trade_risk_pct": 0.005,
+  "max_daily_loss_pct": 0.01,
+  "max_openings_per_day": 3,
+  "min_dte": 21,
+  "max_dte": 60,
+  "max_spread_pct": 0.15,
+  "max_data_age_seconds": 30,
+  "cooldown_minutes": 15,
+  "decision_minutes": 5,
+  "max_quote_change_pct": 0.05,
+  "max_proposal_seconds": 90,
+  "commission_per_contract": 0.65,
+  "slippage": 0.01,
+  "max_candidates": 8,
+  "signal_threshold": 0.001,
+  "strategy": "momentum-v1",
+  "openai_model": "gpt-6-astra",
+  "openai_timeout_seconds": 20,
+  "ibkr_host": "127.0.0.1",
+  "ibkr_port": 4002,
+  "ibkr_client_id": 17,
+  "ibkr_timeout_seconds": 12,
+  "fake_latency_ms": 10
+}

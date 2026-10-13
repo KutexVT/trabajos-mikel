@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="520" viewBox="0 0 1920 520" role="img" aria-labelledby="title">
+  <title id="title">Flujo de análisis de currículos</title>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0l8 4-8 4z" fill="#94a3b8"/>
+    </marker>
+    <style>
+      .box { fill: #fff; stroke: #d6dbe3; stroke-width: 2; }
+      .focus { fill: #fffaf3; stroke: #f1c27d; }
+      .final { fill: #f4fbf7; stroke: #9fd5b5; }
+      .text { font: 500 17px Inter, Arial, sans-serif; fill: #202938; text-anchor: middle; }
+      .line { fill: none; stroke: #94a3b8; stroke-width: 2; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1920" height="520" fill="#fff"/>
+
+  <path class="line" d="M250 210h30"/>
+  <path class="line" d="M480 210h30"/>
+  <path class="line" d="M710 210h30"/>
+  <path class="line" d="M940 210h30"/>
+  <path class="line" d="M1170 210h30"/>
+  <path class="line" d="M1400 210h30"/>
+  <path class="line" d="M1630 210h30"/>
+  <path class="line" d="M1070 432V292"/>
+
+  <g transform="translate(50 145)">
+    <rect class="box" width="200" height="130" rx="14"/>
+    <text class="text" x="100" y="51"><tspan x="100">Programa donde</tspan><tspan x="100" dy="25">llegan los</tspan><tspan x="100" dy="25">currículos</tspan></text>
+  </g>
+  <g transform="translate(280 145)">
+    <rect class="box" width="200" height="130" rx="14"/>
+    <text class="text" x="100" y="51"><tspan x="100">Descarga automática</tspan><tspan x="100" dy="25">PDF y Word</tspan></text>
+  </g>
+  <g transform="translate(510 145)">
+    <rect class="box" width="200" height="130" rx="14"/>
+    <text class="text" x="100" y="51"><tspan x="100">Lectura con IA</tspan><tspan x="100" dy="25">y extracción</tspan><tspan x="100" dy="25">de datos</tspan></text>
+  </g>
+  <g transform="translate(740 145)">
+    <rect class="box" width="200" height="130" rx="14"/>
+    <text class="text" x="100" y="51"><tspan x="100">Separación por</tspan><tspan x="100" dy="25">puesto o categoría</tspan></text>
+  </g>
+  <g transform="translate(970 145)">
+    <rect class="box focus" width="200" height="130" rx="14"/>
+    <text class="text" x="100" y="51"><tspan x="100">Comparación con</tspan><tspan x="100" dy="25">los requisitos</tspan></text>
+  </g>
+  <g transform="translate(1200 145)">
+    <rect class="box" width="200" height="130" rx="14"/>
+    <text class="text" x="100" y="51"><tspan x="100">Puntuación con</tspan><tspan x="100" dy="25">evidencia del</tspan><tspan x="100" dy="25">currículo</tspan></text>
+  </g>
+  <g transform="translate(1430 145)">
+    <rect class="box" width="200" height="130" rx="14"/>
+    <text class="text" x="100" y="51"><tspan x="100">Mejores candidatos</tspan><tspan x="100" dy="25">por cada puesto</tspan></text>
+  </g>
+  <g transform="translate(1660 145)">
+    <rect class="box final" width="210" height="130" rx="14"/>
+    <text class="text" x="105" y="51"><tspan x="105">Revisión y decisión</tspan><tspan x="105" dy="25">de una persona</tspan></text>
+  </g>
+
+  <g transform="translate(935 432)">
+    <rect class="box focus" width="270" height="64" rx="14"/>
+    <text class="text" x="135" y="27"><tspan x="135">Interfaz gráfica</tspan><tspan x="135" dy="23">requisitos y prioridades</tspan></text>
+  </g>
+</svg>
